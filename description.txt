@@ -1,0 +1,18 @@
+Input Image
+input image -> gaussian
+gaussian -> Horizontal and Vertical Gradient Calculation HVGC
+HVGC -> Magnitude
+HVGC, Magnitude -> Directional Non Maximal Suppresion DNMS
+DNMS -> Threshold Calculation
+Threshold Calculation -> Hysteresis Thresolding HT 
+HT -> Edge image
+Edge Image 
+
+
+
+
+Gaussian Unit 
+
+HVGC unit 
+
+Magnitude Unit 
