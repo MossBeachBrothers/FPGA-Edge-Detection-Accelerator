@@ -1,4 +1,7 @@
-module edge_detector (
+module edge_detector #(
+    parameter IMAGE_HEIGHT=500,
+    parameter IMAGE_WIDTH=400
+)(
     input wire clk,
     input wire reset_n
     input wire enable,
@@ -8,17 +11,86 @@ module edge_detector (
 ); 
 
 
-control_unit cu_inst ();
+//intermediate signals
+wire input_image
+wire kernel_matrix
+wire output_image
+wire gradient_matrix
+wire theta_matrix
+wire non_max_image_z
+wire threshold_result
+wire hysterisis_result 
+wire output_image 
 
-gaussian_kernel gaussian_inst ();
+//control signals
+wire gaussian_enable, filter_enable, suppress_enable, threshold_enable, hysterisis_enable
 
-sobel_filter filter_inst ();
 
-max_suppression_unit suppression_inst();
+//status signals
+wire gaussian_done, filter_done, suppress_done, threshold_done, hsyerisis_done
 
-double_threshold_unit threshold_inst();
+control_unit cu_inst (
+    .clk(),
+    .reset_n(),
+    .enable(),
+    .gaussian_enable(),
+    .gaussian_done(),
+    .filter_enable(),
+    .filter_done(),
+    .suppress_enable(),
+    .suppress_done(),
+    .threshold_enable(),
+    .threshold_done(),
+    .hysterisis_enable(),
+    .hysterisis_done()
+);
 
-hysterisis_unit hysterisis_inst();
+gaussian_kernel gaussian_inst (
+    .clk(clk),
+    .reset(),
+    .enable(),
+    .done(),
+    kernel_matrix()
+);
+
+sobel_filter filter_inst (
+    .clk(clk),
+    .enable(),
+    .image(),
+    .done(),
+    .G(),
+    .theta()
+);
+
+non_max_suppression #(
+    WIDTH=5,
+    HEIGHT=5
+) suppression_inst(
+    .clk(clk),
+    .enable(),
+    .G(),
+    .theta(),
+    .done(),
+    .Z()
+);
+
+double_threshold_unit threshold_inst(
+    .clk(),
+    .reset(),
+    .enable(),
+    .done(),
+    .Z(),
+    .res()
+);
+
+hysterisis_unit hysterisis_inst(
+    .clk(clk),
+    .reset(),
+    .enable(),
+    .done(),
+    .img(),
+    .res()
+);
 
 peripheral input_peripheral_inst();
 
