@@ -1,5 +1,5 @@
 // double_threshold_unit.sv
-
+// Applies double thresholding to classify pixels into strong and weak edges based on gradient values, facilitating the differentiation of significant edges from noise.
 //Written By: Akhil Nair 
 
 

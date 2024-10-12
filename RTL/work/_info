@@ -56,3 +56,51 @@ R5
 !i113 1
 R6
 R7
+vhysteresis_unit
+R0
+Z8 !s110 1728763689
+!i10b 1
+!s100 JZD826e=Yo`_GZg5VaVnc1
+In`=F<1E8oJl5h2Z?]gmHH2
+R2
+!s105 hysterisis_unit_sv_unit
+S1
+R3
+w1728763680
+8C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/hysterisis_unit.sv
+FC:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/hysterisis_unit.sv
+L0 4
+R4
+r1
+!s85 0
+31
+Z9 !s108 1728763689.000000
+!s107 C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/hysterisis_unit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/hysterisis_unit.sv|
+!i113 1
+R6
+R7
+vhysteresis_unit_tb
+R0
+R8
+!i10b 1
+!s100 MOGjTlM>hH`4ZlIN:5L^N1
+IT]8JZZ6LYVU6[?mm2Q^hK3
+R2
+!s105 hysterisis_unit_tb_sv_unit
+S1
+R3
+w1728763684
+8C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/hysterisis_unit_tb.sv
+FC:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/hysterisis_unit_tb.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/hysterisis_unit_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/hysterisis_unit_tb.sv|
+!i113 1
+R6
+R7
