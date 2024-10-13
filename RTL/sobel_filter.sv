@@ -2,6 +2,8 @@
 
 //Sobel Filter: discrete differentiation operator. Computes approximation of gradient. Filter uses 3x3 conv kernels, one for horizontal and for vertical (Kx and Ky)
 //Akhil Nair 
+`timescale 1ns/1ps
+
 module sobel_filter #(
     parameter WIDTH = 5,
     parameter HEIGHT = 5

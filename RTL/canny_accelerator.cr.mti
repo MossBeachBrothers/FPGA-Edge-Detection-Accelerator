@@ -1,1 +1,43 @@
+C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/edge_detector_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/edge_detector_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_edge_detector
 
+Top level modules:
+	tb_edge_detector
+
+} {} {}} C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/double_threshold_unit_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/double_threshold_unit_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module double_threshold_unit_tb
+
+Top level modules:
+	double_threshold_unit_tb
+
+} {} {}} C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/hysterisis_unit.sv {1 {vlog -work work -sv -stats=none C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/hysterisis_unit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module hysteresis_unit
+
+Top level modules:
+	hysteresis_unit
+
+} {} {}} C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/conv_unit_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/conv_unit_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module conv_unit_tb
+
+Top level modules:
+	conv_unit_tb
+
+} {} {}} C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/control_unit_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/control_unit_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module control_unit_tb
+
+Top level modules:
+	control_unit_tb
+
+} {} {}} C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/double_threshold_unit.sv {1 {vlog -work work -sv -stats=none C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/double_threshold_unit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module double_threshold_unit
+
+Top level modules:
+	double_threshold_unit
+
+} {} {}}

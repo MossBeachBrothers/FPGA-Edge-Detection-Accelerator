@@ -1,5 +1,6 @@
 // Calculates Gaussian function. The Gaussian at point X,Y is represented as  G(x, y) = (1 / (2πσ²)) * e^(-(x² + y²) / (2σ²))
 //Akhil Nair 
+`timescale 1ns/1ps
 
 module gaussian_kernel #(
     parameter int SIZE = 5,         //Kernel Size 

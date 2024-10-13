@@ -8,44 +8,140 @@ z2
 !i10f 100
 cModel Technology
 dC:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/CANNY_DETECTION
-vdouble_threshold_unit
+vcontrol_unit
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1728761015
+Z1 !s110 1728842877
 !i10b 1
-!s100 ib_lfb:5m7gW<73a;HbZ82
-IXd3[7CDOOafVAVH03OTad3
+!s100 l8dYMh08YHG]_zk6U0`VP1
+I65h8zlU4@>`HKCG60A66M0
 Z2 VDg1SIo80bB@j0V0VzS_@n1
-!s105 double_threshold_unit_sv_unit
+!s105 control_unit_sv_unit
 S1
 Z3 dC:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL
-w1728761001
-8C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/double_threshold_unit.sv
-FC:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/double_threshold_unit.sv
-L0 4
+w1728842033
+8C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/control_unit.sv
+FC:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/control_unit.sv
+L0 1
 Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1728761015.000000
-!s107 C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/double_threshold_unit.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/double_threshold_unit.sv|
+Z5 !s108 1728842877.000000
+!s107 C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/control_unit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/control_unit.sv|
 !i113 1
 Z6 o-work work -sv
 Z7 tCvgOpt 0
+vcontrol_unit_tb
+R0
+R1
+!i10b 1
+!s100 9eAMlbeO^i7gCISP<0`G61
+I<HKnhz_bDXLTVjPC5E:kj1
+R2
+!s105 control_unit_tb_sv_unit
+S1
+R3
+w1728841803
+8C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/control_unit_tb.sv
+FC:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/control_unit_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/control_unit_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/control_unit_tb.sv|
+!i113 1
+R6
+R7
+vconv_unit
+R0
+R1
+!i10b 1
+!s100 Eo`ARTD]mO>HOTc`R>lcG1
+IT3E9e5Yc]2W=LNdQ29;MF3
+R2
+!s105 conv_unit_sv_unit
+S1
+R3
+Z8 w1728769229
+8C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/conv_unit.sv
+FC:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/conv_unit.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/conv_unit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/conv_unit.sv|
+!i113 1
+R6
+R7
+vconv_unit_tb
+R0
+R1
+!i10b 1
+!s100 1H@Q<DcJHW7HA@03TZlBK1
+IUzOZofCj7a[W_JHL:V_Db0
+R2
+!s105 conv_unit_tb_sv_unit
+S1
+R3
+R8
+8C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/conv_unit_tb.sv
+FC:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/conv_unit_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/conv_unit_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/conv_unit_tb.sv|
+!i113 1
+R6
+R7
+vdouble_threshold_unit
+R0
+R1
+!i10b 1
+!s100 KkED0L`4f6lkMc:kTX:NZ2
+I`@CCFeJ>>c;CW8P@P=EU<1
+R2
+!s105 double_threshold_unit_sv_unit
+S1
+R3
+R8
+8C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/double_threshold_unit.sv
+FC:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/double_threshold_unit.sv
+L0 8
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/double_threshold_unit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/double_threshold_unit.sv|
+!i113 1
+R6
+R7
 vdouble_threshold_unit_tb
 R0
 R1
 !i10b 1
-!s100 HVSo<8l^W12a9L@i2hL=G1
-Ijl^hIA5`ERTC9afkEb1<J1
+!s100 I87fYF;ec@kZnAjhG5g;<1
+Il:ENJoYiiQB0dPZogzfX10
 R2
 !s105 double_threshold_unit_tb_sv_unit
 S1
 R3
-w1728760528
+R8
 8C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/double_threshold_unit_tb.sv
 FC:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/double_threshold_unit_tb.sv
-L0 4
+L0 8
 R4
 r1
 !s85 0
@@ -56,25 +152,73 @@ R5
 !i113 1
 R6
 R7
-vhysteresis_unit
+vedge_detector
 R0
-Z8 !s110 1728763689
+R1
 !i10b 1
-!s100 JZD826e=Yo`_GZg5VaVnc1
-In`=F<1E8oJl5h2Z?]gmHH2
+!s100 8AULNYg>=d;ke[_ao9hKa1
+I9C0I>iTA?QDK3boD;:mZ82
 R2
-!s105 hysterisis_unit_sv_unit
+!s105 edge_detector_sv_unit
 S1
 R3
-w1728763680
-8C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/hysterisis_unit.sv
-FC:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/hysterisis_unit.sv
+w1728842868
+8C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/edge_detector.sv
+FC:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/edge_detector.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/edge_detector.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/edge_detector.sv|
+!i113 1
+R6
+R7
+vgaussian_kernel
+R0
+R1
+!i10b 1
+!s100 l?FX4]n5jnj574hj6E4061
+I@7FCZ]<h_J`Coa];Bn>252
+R2
+!s105 gaussian_kernel_sv_unit
+S1
+R3
+R8
+8C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/gaussian_kernel.sv
+FC:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/gaussian_kernel.sv
 L0 4
 R4
 r1
 !s85 0
 31
-Z9 !s108 1728763689.000000
+R5
+!s107 C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/gaussian_kernel.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/gaussian_kernel.sv|
+!i113 1
+R6
+R7
+vhysteresis_unit
+R0
+Z9 !s110 1728842878
+!i10b 1
+!s100 DS7::4Ql5@WnZmmObX@KO1
+IX0R90bkCzZY41UG]AlJOf2
+R2
+!s105 hysterisis_unit_sv_unit
+S1
+R3
+R8
+8C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/hysterisis_unit.sv
+FC:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/hysterisis_unit.sv
+L0 6
+R4
+r1
+!s85 0
+31
+Z10 !s108 1728842878.000000
 !s107 C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/hysterisis_unit.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/hysterisis_unit.sv|
 !i113 1
@@ -82,7 +226,7 @@ R6
 R7
 vhysteresis_unit_tb
 R0
-R8
+!s110 1728763689
 !i10b 1
 !s100 MOGjTlM>hH`4ZlIN:5L^N1
 IT]8JZZ6LYVU6[?mm2Q^hK3
@@ -98,9 +242,81 @@ R4
 r1
 !s85 0
 31
-R9
+!s108 1728763689.000000
 !s107 C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/hysterisis_unit_tb.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/hysterisis_unit_tb.sv|
+!i113 1
+R6
+R7
+vnon_max_suppression
+R0
+R9
+!i10b 1
+!s100 8L8=I2kgQi;ESO9R]4SW02
+I_2z?=kK5Yc`F^`049c`^z3
+R2
+!s105 non_max_suppresion_sv_unit
+S1
+R3
+R8
+8C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/non_max_suppresion.sv
+FC:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/non_max_suppresion.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/non_max_suppresion.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/non_max_suppresion.sv|
+!i113 1
+R6
+R7
+vsobel_filter
+R0
+R9
+!i10b 1
+!s100 I>[i;7S3L55GiSLX;H8me0
+IjS`kO0HXn3UYboo:bkKbN0
+R2
+!s105 sobel_filter_sv_unit
+S1
+R3
+R8
+8C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/sobel_filter.sv
+FC:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/sobel_filter.sv
+L0 5
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/sobel_filter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/sobel_filter.sv|
+!i113 1
+R6
+R7
+vtb_edge_detector
+R0
+R1
+!i10b 1
+!s100 c6lFl;ajAEfDd=2AB_c1E1
+I>zS<QEj@S2mQAONdN6lQ20
+R2
+!s105 edge_detector_tb_sv_unit
+S1
+R3
+w1728842426
+8C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/edge_detector_tb.sv
+FC:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/edge_detector_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1728842876.000000
+!s107 C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/edge_detector_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/akhil/GOOGLE_DRIVE/SD_MIXIE/RF_SD_MIXIE/HARDWARE/edge_detection_accelerator/RTL/edge_detector_tb.sv|
 !i113 1
 R6
 R7

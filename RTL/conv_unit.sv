@@ -1,4 +1,5 @@
 // Convolution Unit Module matching the Python function
+`timescale 1ns/1ps
 
 module conv_unit #(
     parameter int IMAGE_HEIGHT = 5,

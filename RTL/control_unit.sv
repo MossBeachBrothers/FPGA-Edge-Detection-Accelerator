@@ -1,3 +1,6 @@
+`timescale 1ns/1ps
+
+
 module control_unit (
     input  wire              clk,
     input  wire              reset_n,

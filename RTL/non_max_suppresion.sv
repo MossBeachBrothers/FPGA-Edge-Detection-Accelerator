@@ -1,6 +1,8 @@
 // non_max_suppression.sv
 //Non Max Suppresion thins the edges by retaining only the local maxima along the gradient direction, enhancing edge precision by comparing each pixel to its neighbors.
 //Akhil Nair 
+`timescale 1ns/1ps
+
 module non_max_suppression #(
     parameter WIDTH = 5,
     parameter HEIGHT = 5
